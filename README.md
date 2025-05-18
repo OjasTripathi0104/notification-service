@@ -15,7 +15,7 @@ A full-stack service notification service that allows sending and viewing notifi
 5) SMS: Twilio
 
 **Setup Instructions:**
-1) Backend
+1) Backend <br />
 (i) Clone the repository <br />
 git clone https://github.com/OjasTripathi0104/notification-service.git <br />
 cd backend <br />
@@ -24,10 +24,8 @@ npm install
 (iii) Create .env file <br />
 PORT=5000 <br />
 MONGO_URI=mongodb://localhost:27017/notificationDB <br />
-# Gmail credentials for Nodemailer <br />
 EMAIL_USER=your_email@gmail.com <br />
 EMAIL_PASS=your_app_password <br />
-# Twilio credentials <br />
 TWILIO_SID=your_twilio_sid <br />
 TWILIO_AUTH=your_twilio_auth_token <br />
 TWILIO_PHONE=+1xxxxxxxxxx <br />
