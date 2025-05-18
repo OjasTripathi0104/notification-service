@@ -1,0 +1,103 @@
+/* Background gradient */
+body,
+html,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f2f5, #3a3a50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.form-container,
+.list-container {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.form-container:hover,
+.list-container:hover {
+    transform: translateY(-3px);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    color: #2c2c2c;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    background-color: #fdfdfd;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.2rem;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #0056b3, #004199);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+li {
+    background: #fff;
+    margin-bottom: 0.6rem;
+    padding: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.status {
+    font-style: italic;
+    color: gray;
+}
+
+.status.sent {
+    color: green;
+}
+
+.status.failed {
+    color: red;
+}
