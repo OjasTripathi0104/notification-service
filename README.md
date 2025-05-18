@@ -32,7 +32,7 @@ TWILIO_PHONE=+1xxxxxxxxxx <br />
 (iv) Run backend <br />
 npx nodemon app.js
 
-2) Frontend
+2) Frontend <br />
 (i) Go to the frontend directory <br />
 cd ../frontend <br />
 (ii) Install dependencies <br />
