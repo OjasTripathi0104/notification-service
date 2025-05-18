@@ -43,6 +43,6 @@ exports.sendNotificationByType = async (notification) => {
         }
     }
 
-    console.log(`🔔 In-app stored for ${userId}: "${message}"`);
+    console.log(`In-app stored for ${userId}: "${message}"`);
     return 'sent';
 };
