@@ -20,8 +20,8 @@ A full-stack service notification service that allows sending and viewing notifi
 git clone https://github.com/OjasTripathi0104/notification-service.git <br />
 cd backend <br />
 (ii) Install dependencies <br />
-npm install
-(iii) Create .env file <br />
+npm install <br />
+(iii) Create .env file: <br />
 PORT=5000 <br />
 MONGO_URI=mongodb://localhost:27017/notificationDB <br />
 EMAIL_USER=your_email@gmail.com <br />
@@ -34,11 +34,11 @@ npx nodemon app.js
 
 2) Frontend
 (i) Go to the frontend directory <br />
-cd ../frontend
+cd ../frontend <br />
 (ii) Install dependencies <br />
-npm install
+npm install <br />
 (iii) Start the server <br />
-npm run dev
+npm run dev 
 
 **Assumptions Made:**
 1) userId is assumed to be: an email address for Email notifications, a phone number for SMS notifications and any string for In-App notifications.
